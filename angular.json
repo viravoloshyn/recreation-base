@@ -3,11 +3,19 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "rent": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
+=======
+    "recreation-base": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "sass"
+>>>>>>> 66e66937df3f4ff4138c202f8605b5955cfe2b00
         }
       },
       "root": "",
@@ -17,7 +25,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/rent",
+=======
+            "outputPath": "dist/recreation-base",
+>>>>>>> 66e66937df3f4ff4138c202f8605b5955cfe2b00
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -28,8 +40,12 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "./node_modules/@angular/material/prebuilt-themes/purple-green.css",
               "src/styles.scss"
+=======
+              "src/styles.sass"
+>>>>>>> 66e66937df3f4ff4138c202f8605b5955cfe2b00
             ],
             "scripts": []
           },
@@ -67,18 +83,30 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "rent:build"
           },
           "configurations": {
             "production": {
               "browserTarget": "rent:build:production"
+=======
+            "browserTarget": "recreation-base:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "recreation-base:build:production"
+>>>>>>> 66e66937df3f4ff4138c202f8605b5955cfe2b00
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "rent:build"
+=======
+            "browserTarget": "recreation-base:build"
+>>>>>>> 66e66937df3f4ff4138c202f8605b5955cfe2b00
           }
         },
         "test": {
@@ -93,8 +121,12 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "./node_modules/@angular/material/prebuilt-themes/purple-green.css",
               "src/styles.scss"
+=======
+              "src/styles.sass"
+>>>>>>> 66e66937df3f4ff4138c202f8605b5955cfe2b00
             ],
             "scripts": []
           }
@@ -116,15 +148,24 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
+<<<<<<< HEAD
             "devServerTarget": "rent:serve"
           },
           "configurations": {
             "production": {
               "devServerTarget": "rent:serve:production"
+=======
+            "devServerTarget": "recreation-base:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "recreation-base:serve:production"
+>>>>>>> 66e66937df3f4ff4138c202f8605b5955cfe2b00
             }
           }
         }
       }
+<<<<<<< HEAD
     }
   },
   "defaultProject": "rent",
@@ -132,3 +173,8 @@
     "analytics": "fbf08323-b7c5-42e4-ac78-282e31611b57"
   }
 }
+=======
+    }},
+  "defaultProject": "recreation-base"
+}
+>>>>>>> 66e66937df3f4ff4138c202f8605b5955cfe2b00

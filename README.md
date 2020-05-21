@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Rent
+=======
+# RecreationBase
+>>>>>>> 66e66937df3f4ff4138c202f8605b5955cfe2b00
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
 

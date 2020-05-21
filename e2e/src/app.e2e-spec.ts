@@ -10,7 +10,11 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
+<<<<<<< HEAD
     expect(page.getTitleText()).toEqual('rent app is running!');
+=======
+    expect(page.getTitleText()).toEqual('recreation-base app is running!');
+>>>>>>> 66e66937df3f4ff4138c202f8605b5955cfe2b00
   });
 
   afterEach(async () => {

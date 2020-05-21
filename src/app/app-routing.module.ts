@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+<<<<<<< HEAD
 import {MainPageComponent} from "./components/main-page/main-page.component";
 import {RentInfoComponent} from "./components/rent-info/rent-info.component";
 import {RentMapComponent} from "./components/rent-map/rent-map.component";
@@ -20,6 +21,11 @@ const routes: Routes = [
   {path: 'order', component: OrderComponent},
   {path: 'rent/single', component: SingleServiceComponent}
 ];
+=======
+
+
+const routes: Routes = [];
+>>>>>>> 66e66937df3f4ff4138c202f8605b5955cfe2b00
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
